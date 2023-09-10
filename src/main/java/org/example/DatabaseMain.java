@@ -26,4 +26,7 @@ public class DatabaseMain {
         return questions;
     }
 
+//    public static boolean isValid (String userInput) {
+//    }
+
 }
