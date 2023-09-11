@@ -23,7 +23,9 @@ public class DatabaseMain {
             }
             questions[i] = scanner.nextLine();
         }
+
         return questions;
     }
+
 
 }
