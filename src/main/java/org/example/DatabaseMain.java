@@ -7,7 +7,7 @@ public class DatabaseMain {
         System.out.println("\nHi! Welcome to the student help center.\n");
         Scanner scanner = new Scanner(System.in);
         String [] userInput = userInput("Please enter your name and grade level (Freshman, Sophomore, Junior, or Senior): ", scanner);
-        String userName = userInput[0].substring(0, 1).toUpperCase() + userInput[0].substring(1);
+        String userName = userInput[0].substring(0, 1).toUpperCase() + userInput[0].substring(1).toLowerCase();
         System.out.println("Welcome, " + userName);
     }
 
@@ -23,7 +23,9 @@ public class DatabaseMain {
             }
             questions[i] = scanner.nextLine();
         }
+
         return questions;
     }
+
 
 }
